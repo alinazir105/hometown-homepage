@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero-section{
+    background: url("assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-head{
+    background: #293832;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 2px black;
+}
+
+#hero-text{
+    background: #40473c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 2px black;
+}
+
+#activities-section{
+    background: #F1FAEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #293832;
+}
+
+
+#activities-col{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.activities{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.activities:hover{
+    color: #F1FAEE;
+    background: #293832;
+    transition: 0.5s;
+}
+
+.activities h4{
+    margin: 15px 0;
+}
+.activity-img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+#guide-section{
+    padding: 50px 0;
+}
+#guide-card{
+    display: flex;
+    justify-content: center;
+    background: #8ca5ba;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    gap: 20px;
+    border-radius: 10px;
+    color: #293832;
+    border-bottom: 4px solid #293832;
+}
+
+#card-col1 img{
+    width: 180px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+#card-col2 h2{
+    margin-bottom: 15px;
+}
+
+#card-col2 p{
+    margin-bottom: 15px;
+}
